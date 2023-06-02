@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.app {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+
+
+.nav {
+  height: 100px;
+  background-color: greenyellow;
+}
+
+.footer {
+  height: 100px;
+  background-color: greenyellow;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.projects-section{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  height: 400px;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  overflow: hidden;
+}
+
+.card img {
+  height: 50%;
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-section img {
+  height: 300px;
+
+}
